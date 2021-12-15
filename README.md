@@ -7,6 +7,7 @@ Na segunda semana, criamos gráficos para sinais no domínio do tempo e no domí
   O gráfico no domínio do tempo apresentava uma tensão e uma corrente com um certo atraso em relação à tal tensão.
   O gráfico no domínio fasorial apresentava a tensão e a corrente (ampliada para melhor visualização) no plano complexo.
   ![Fasorial](Imagens/Semana 2/Fasorial.gif)
+  ![Fasorial](Imagens/Semana 3/Fasorial.png)
   
 Na terceira semana, criamos gráficos para o triângulo das potências, além dos gráficos citados anteriormente.
   O gráfico do triângulo das potências apresenta a Potência ativa, Potência reativa e a Potência aparente no plano complexo.
