@@ -6,9 +6,10 @@ Na primeira semana, houve a apresentação da disciplina.
 Na segunda semana, criamos gráficos para sinais no domínio do tempo e no domínio fasorial.
   O gráfico no domínio do tempo apresentava uma tensão e uma corrente com um certo atraso em relação à tal tensão.
   O gráfico no domínio fasorial apresentava a tensão e a corrente (ampliada para melhor visualização) no plano complexo.
-  [Semana 2.zip](https://github.com/AndreyPaiva/LCEII/files/7721034/Semana.2.zip)
+  [Semana 2.zip](https://github.com/AndreyPaiva/LCEII/files/7721086/Semana.2.zip)
+
   
 Na terceira semana, criamos gráficos para o triângulo das potências, além dos gráficos citados anteriormente.
   O gráfico do triângulo das potências apresenta a Potência ativa, Potência reativa e a Potência aparente no plano complexo.
   Fizemos o gráfico no domínio do tempo, domínio fasorial e triângulo das potências antes e depois do desligamento de uma fonte de 2000W.
-  [Semana 3.zip](https://github.com/AndreyPaiva/LCEII/files/7721045/Semana.3.zip)
+  [Semana 3.zip](https://github.com/AndreyPaiva/LCEII/files/7721089/Semana.3.zip)
