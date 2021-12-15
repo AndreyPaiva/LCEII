@@ -1,29 +1,29 @@
-%InformaÁıes iniciais
-V = 220; %Tens„o nominal
-f = 60; %FrequÍncia
+%Informa√ß√µes iniciais
+V = 220; %Tens√£o nominal
+f = 60; %Frequ√™ncia
 I = 20; %Corrente nominal
 
-%Defasagem entre a corrente e a tens„o
+%Defasagem entre a corrente e a tens√£o
 atraso = 1.8355e-3; 
 fase = -atraso*2*pi*f;
 
 t = [0:(1/f)/1000:1/f];
 
-%V e I no domÌnio do tempo
+%V e I no dom√≠nio do tempo
 Vt = V*sqrt(2)*cos(2*pi*f*t);
 It = I*sqrt(2)*cos(2*pi*f*t + fase);
 
-%V e I no domÌnio fasorial
+%V e I no dom√≠nio fasorial
 Vfas = V*exp(j*0);
 Ifas = I*exp(j*fase);
 
-%Tri‚ngulo das potÍncias
+%Tri√¢ngulo das pot√™ncias
 S = Vfas*conj(Ifas);
 P = real(S);
 Q = imag(S);
 Sap = abs(S);
 
-%AlteraÁ„o na potÍncia;
+%Altera√ß√£o na pot√™ncia;
 S2 = S-2000;
 P2 = real(S2);
 Q2 = imag(S2);
@@ -33,32 +33,32 @@ Sap2 = abs(S2);
 Ifas2 = conj(S2)/Vfas;
 It2 = abs(Ifas2)*sqrt(2)*cos(2*pi*f*t + fase);
 
-%Gr·ficos no dominio do tempo
+%Gr√°ficos no dominio do tempo
 figure(1)
 subplot(1, 2, 1)
 plotyy(t, Vt, t, It)
-title('Dominio do tempo antes da mudanca')
-legend('Tensao', 'Corrente')
+title('Antes da mudan√ßa')
+legend('Tens√£o', 'Corrente')
 axis('square')
 grid;
 
 subplot(1, 2, 2)
 plotyy(t, Vt, t, It2)
-title('Dominio do tempo depois da mudanca')
-legend('Tensao', 'Corrente')
+title('Depois da mudan√ßa')
+legend('Tens√£o', 'Corrente')
 axis('square')
 grid;
 
-%Gr·ficos no dominio fasorial 
+%Gr√°ficos no dominio fasorial 
 figure(2)
 subplot(1, 2, 1)
 plot([0 real(Vfas)], [0 imag(Vfas)], [0 real(Ifas)*10], [0 imag(Ifas)*10])
 axis([-250 250 -250 250])
 axis('square')
 xlabel('Real')
-ylabel('Imaginario')
-legend('Tensao', 'Corrente * 10')
-title('Dominio fasorial antes da mudanca')
+ylabel('Imagin√°rio')
+legend('Tens√£o', 'Corrente * 10')
+title('Antes da mudan√ßa')
 grid;
 
 subplot(1, 2, 2)
@@ -66,25 +66,25 @@ plot([0 real(Vfas)], [0 imag(Vfas)], [0 real(Ifas2)*10], [0 imag(Ifas2)*10])
 axis([-250 250 -250 250])
 axis('square')
 xlabel('Real')
-ylabel('Imaginario')
-legend('Tensao', 'Corrente * 10')
-title('Dominio fasorial depois da mudanca')
+ylabel('Imagin√°rio')
+legend('Tens√£o', 'Corrente * 10')
+title('Depois da mudan√ßa')
 grid;
 
-%Gr·ficos do tri‚ngulo das potÍncias
+%Gr√°ficos do tri√¢ngulo das pot√™ncias
 figure(3)
 subplot(1, 2, 1)
 plot([0 P], [0 0], [P P], [0 Q], [0 P], [0 Q])
-xlabel('Potencia ativa (W)')
-ylabel('Potencia reativa (VAr)')
+xlabel('Pot√™ncia ativa (W)')
+ylabel('Pot√™ncia reativa (VAr)')
 axis('square')
-title('Triangulo das potencias antes da mudanca')
+title('Antes da mudan√ßa')
 grid;  
 
 subplot(1, 2, 2)
 plot([0 P2], [0 0], [P2 P2], [0 Q2], [0 P2], [0 Q2])
-xlabel('Potencia ativa (W)')
-ylabel('Potencia reativa (VAr)')
+xlabel('Pot√™ncia ativa (W)')
+ylabel('Pot√™ncia reativa (VAr)')
 axis('square')
-title('Triangulo das potencias depois da mudanca')
-grid;  
+title('Depois da mudan√ßa')
+grid;   
