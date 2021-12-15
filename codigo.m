@@ -77,6 +77,7 @@ subplot(1, 2, 1)
 plot([0 P], [0 0], [P P], [0 Q], [0 P], [0 Q])
 xlabel('Potência ativa (W)')
 ylabel('Potência reativa (VAr)')
+xlim([0 P+(P/5)])
 axis('square')
 title('Antes da mudança')
 grid;  
@@ -85,6 +86,7 @@ subplot(1, 2, 2)
 plot([0 P2], [0 0], [P2 P2], [0 Q2], [0 P2], [0 Q2])
 xlabel('Potência ativa (W)')
 ylabel('Potência reativa (VAr)')
+xlim([0 P2+(P2/5)])
 axis('square')
 title('Depois da mudança')
-grid;   
+grid;  
