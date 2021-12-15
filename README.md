@@ -12,3 +12,5 @@ Na segunda semana, criamos gráficos para sinais no domínio do tempo e no domí
 Na terceira semana, criamos gráficos para o triângulo das potências, além dos gráficos citados anteriormente.
   O gráfico do triângulo das potências apresenta a Potência ativa, Potência reativa e a Potência aparente no plano complexo.
   Fizemos o gráfico no domínio do tempo, domínio fasorial e triângulo das potências antes e depois do desligamento de uma fonte de 2000W.
+
+  melhor jungle do mundo, quem sabe até do brasil 😎
