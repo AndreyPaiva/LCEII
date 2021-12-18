@@ -17,3 +17,13 @@ Na terceira semana, criamos gráficos para o triângulo das potências, além do
   ![Tempo](Imagens/Semana3/Tempo.png)
   ![Fasorial](Imagens/Semana3/Fasorial.png)
   ![Potencias](Imagens/Semana3/Potencias.png)
+
+Na quarta semana, fomos apresentados ao efeito da potência reativa na alimentação de uma carga, assim como ao fator de potência.
+  Os gráficos mostram os triângulos das potências das cargas conectadas na fonte, antes e depois da compensação feita utilizando o capacitor de menor capacitância, assim como os fatores de potência antes e depois da compensação.
+  ![C1](Imagens/Semana4/C1.png)
+  ![C2](Imagens/Semana4/C2.png)
+  ![C3](Imagens/Semana4/C3.png)
+  ![C12](Imagens/Semana4/C12.png)
+  ![C13](Imagens/Semana4/C13.png)
+  ![C23](Imagens/Semana4/C23.png)
+  ![C123](Imagens/Semana4/C123.png)
