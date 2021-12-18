@@ -90,3 +90,4 @@ xlim([0 P2+(P2/5)])
 axis('square')
 title('Depois da mudança')
 grid;  
+aaaaaaa
